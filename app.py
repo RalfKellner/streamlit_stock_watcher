@@ -56,7 +56,7 @@ with st.sidebar:
         tickers, key = "ticker_choice")
     time_period = st.selectbox(
         'Choose a historical time period:',
-        ["3mo", "6mo", "1y", "3y", "5y"])
+        ["1y", "3mo", "6mo", "3y", "5y"])
     
     
 
